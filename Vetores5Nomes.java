@@ -19,5 +19,6 @@ public static void main(String[] args) {
 	String a[] = {nome1, nome2, nome3, nome4, nome5};
 	
 	System.out.println("Os nomes digitados foram: "+ a[0] + ", " + a[1] + ", " + a[2] + ", "+ a[3] + " e "+ a[4] + ".");
+	ler.close();
 }
 }

@@ -43,5 +43,6 @@ public static void main(String[] args) {
         System.out.println(" ");
         System.out.println("O valor final de C é: ");
         System.out.println((a[0]+b[0]) + (a[1]+b[1]) + (a[2]+b[2]) + (a[3]+b[3]) + (a[4]+b[4]));
+        ler.close();
 }
 }

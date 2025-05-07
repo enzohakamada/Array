@@ -22,5 +22,6 @@ public static void main(String[] args) {
 	else {
 		System.out.println("A soma dos números é menor que 30.");
 	}
+	ler.close();
 }
 }
