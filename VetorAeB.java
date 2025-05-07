@@ -7,9 +7,9 @@ public static void main(String[] args) {
     int b[]= new int [5];
     
     for(int i=0; i<5; i++) {
-    	System.out.println("Valor em A");
+    	System.out.println("Valores em A");
     	System.out.println(" ");
-    	System.out.println("Digite um valor " + "(" +i + "): ");
+    	System.out.println("A" + "[" +i + "]: ");
     a[i]=ler.nextInt();
     }
     System.out.println(" ");
@@ -19,9 +19,9 @@ public static void main(String[] args) {
     }
     System.out.println(" ");
     for(int i=0; i<5; i++) {
-    	System.out.println("Valor em B");
+    	System.out.println("Valores em B");
     	System.out.println(" ");
-        System.out.println("Digite um valor " + "(" +i + "): ");
+        System.out.println("B" + "[" +i + "]: ");
         b[i]=ler.nextInt();
         }
     System.out.println(" ");
